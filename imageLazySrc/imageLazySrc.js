@@ -1,6 +1,7 @@
 
 angular.module('starter.directive')
 
+  //monitor scroll event
   .directive('lazyScroll', ['$rootScope',
     function ($rootScope) {
       return {
@@ -18,7 +19,7 @@ angular.module('starter.directive')
       };
     }])
 
-  //图片懒加载
+  //image lazy loading
   .directive('imageLazySrc', ['$document', '$timeout', '$ionicScrollDelegate', '$compile',
     function ($document, $timeout, $ionicScrollDelegate, $compile) {
       return {
