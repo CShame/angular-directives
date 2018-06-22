@@ -11,3 +11,4 @@
 * imgStateUrl(图片加载失败显示默认图标,整个远程图片加载生命周期不显示x图标)
 * imageLazySrc（图片懒加载）
 * auto-textarea(textarea自动换行)
+* voiceItems(语音播放样式)

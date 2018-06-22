@@ -1,0 +1,8 @@
+<div class="dir-each-voice" ng-repeat="data in voiceList track by $index"
+     ng-click="playVoice(data,$index)" ng-style="data.eachVoiceWidth">
+  <div style=" position:relative;">
+    <div ng-style='data.haoroomsStyle'></div>
+  </div>
+  <span>{{data[voiceTime]}}"</span>
+  <i class="icon ion-ios-close" ng-click="deleteRecord(data,$index);$event.stopPropagation();" ng-if='canDelete'></i>
+</div>
